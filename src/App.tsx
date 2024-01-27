@@ -7,6 +7,8 @@ import Manga from './pages/Manga/Manga';
 import Genre from './pages/Genres/Genre';
 import News from './pages/News/News';
 import Watch from './pages/Watch/Watch';
+import SignUp from './pages/Auth/SignUp/SignUp';
+import Login from './pages/Auth/Login/Login';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Homepage />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<SignUp />} />
               <Route path="/anime" element={<Anime />} />
               <Route path="/manga" element={<Manga />} />
               <Route path="/genre" element={<Genre />} />

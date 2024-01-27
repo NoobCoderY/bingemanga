@@ -6,8 +6,10 @@ import {
   FaTwitter,
 } from 'react-icons/fa'
 import './Footer.scss'
+import { useNavigate } from 'react-router-dom'
 
 const Footer = () => {
+  const navigate = useNavigate()
   return (
     <footer className="footer__box">
       <section className="footer__section__1">
@@ -52,8 +54,8 @@ const Footer = () => {
         </div>
         <div className="footer__nav">
           <p className="footer__heading">Account</p>
-          <li>Create Account</li>
-          <li>Log In</li>
+          <li onClick={()=>navigate('/signup')}>Create Account</li>
+          <li onClick={()=>navigate('/login')}>Log In</li>
         </div>
       </section>
 

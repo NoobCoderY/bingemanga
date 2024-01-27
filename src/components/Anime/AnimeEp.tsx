@@ -12,14 +12,10 @@ const AnimeEpisode = () => {
     setepNo(number)
     console.log(animePlayer)
   }
-  const [loading, stillLoading] = useState(true)
-  const finishLoading = () => {
-      alert('finished loading')
-      stillLoading(false)
-  }
+  
   return (
     <div className="anime__episode__container">
-      <iframe src={animePlayer} width={500} height={300} allowFullScreen onLoad={finishLoading}></iframe>
+      <iframe src={animePlayer} width={500} height={300} allowFullScreen title='animePlayer'></iframe>
       <div className="anime__episode">
         {animeep?.map((item, index) => (
           <li
