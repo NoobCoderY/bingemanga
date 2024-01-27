@@ -1,6 +1,6 @@
 import React from 'react'
-import './Anime.scss'
-import AnimeList from '../../components/Anime/AnimeList'
+import '../styles/Anime.scss'
+import AnimeList from '../components/Anime/AnimeList'
 
 const Anime = () => {
   return (

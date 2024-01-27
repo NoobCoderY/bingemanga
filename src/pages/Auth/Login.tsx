@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Login.scss'
+import '../../styles/Auth/Login.scss'
 
 interface FormData {
   email: string
