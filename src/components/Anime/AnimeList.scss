@@ -1,0 +1,17 @@
+.animeList__box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+
+    .card__box{
+        width: 200px;
+        cursor: pointer;
+
+        .title{
+            margin-top: 1rem;
+            font: normal 400 15px/18px Roboto;
+        }
+    }
+}

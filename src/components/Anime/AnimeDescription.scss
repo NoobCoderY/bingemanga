@@ -1,0 +1,67 @@
+.anime__data__container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 3rem 5rem;
+    @media screen and (width<600px) {
+        flex-direction: column;
+        padding: 1rem 2rem;
+        align-items: center;
+    }
+
+    .anime__data__box{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .anime__title{
+            font: normal 500 22px/24px Roboto;
+            color: rgb(238, 75, 108);
+        }
+
+        .anime__details__box{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 60vw;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            @media screen and (width<600px) {
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: .8rem;
+                flex-wrap: nowrap;
+                flex-direction: column;
+            }
+
+            .anime__details{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: .3rem;
+                width: 25vw;
+
+              .anime__details__heading{
+                font: normal 400 17px/17px Roboto;
+                color: rgb(238, 75, 108);
+              } 
+              .anime__details__description{
+                font: normal 400 15px/15px Roboto;
+                white-space: nowrap;
+              } 
+            }
+        }
+
+        .anime__description{
+            font: normal 500 20px/20px Roboto;
+            color: rgb(238, 75, 108);
+            p{
+                font: normal 400 15px/18px Roboto;
+                color: #ffffff;
+                margin-top: 6px;
+            }
+        }
+    }
+
+}

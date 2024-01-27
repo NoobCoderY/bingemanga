@@ -1,0 +1,11 @@
+.anime__page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+
+    @media screen and (width<900px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
