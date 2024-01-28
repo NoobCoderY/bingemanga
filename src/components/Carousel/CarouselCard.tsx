@@ -1,11 +1,10 @@
 import React from 'react'
 import './CarouselCard.scss'
-import img1 from '../../assets/6293009.jpg'
-import img2 from '../../assets/8114283.png'
-import img3 from '../../assets/Jujutsu-Kaisen-4k-Wallpaper.jpeg'
 import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import { IoMdPlay } from 'react-icons/io'
+import data from "../../test/homepageData.json"
 
 const CarouselCard = () => {
   const settings = {
@@ -14,32 +13,30 @@ const CarouselCard = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1500,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-  };
+    speed: 3000,
+    autoplaySpeed: 4000,
+    cssEase: 'linear',
+  }
   return (
     <div className="carousel__container">
-      <Slider {...settings} className='carousel__card'>
-          <div className='anime__card'>
-            <div className='anime__poster' style={{backgroundImage:`url(${img3})`}}>
-
-            <h1>Demon Slayer</h1>
-            </div>
+      <Slider {...settings} className="carousel__card">
+      {data?.map((item, index)=>(
+        <div className="anime__card" key={index}>
+          <div
+            className="anime__poster"
+            style={{ backgroundImage: `url(${item.poster})` }}
+          >
+            <p className="anime__title">{item.title}</p>
+            <p className="anime__language">{item.language}</p>
+            <p className="anime__description">{item.description}</p>
+            <button>
+              <IoMdPlay size={25} /> Start Watching
+            </button>
           </div>
-          <div className='anime__card'>
-            <div className='anime__poster' style={{backgroundImage:`url(${img3})`}}>
-
-            <h1>Jujutsu Kaisen </h1>
-            </div>
-          </div>
-          <div className='anime__card'>
-            <div className='anime__poster' style={{backgroundImage:`url(${img3})`}}>
-
-            <h1>Naruto</h1>
-            </div>
-          </div>
-        </Slider>
+        </div>
+      ))}
+      </Slider>
+      
     </div>
   )
 }
