@@ -4,9 +4,8 @@ import data from '../../test/animeList.json'
 
 const AnimeDescription = () => {
   return (<>
-    {
-      data?.map((item: any, index: any)=> (
-        <div className="anime__data__container" key={index}>
+    
+        <div className="anime__data__container" >
           <img
             src="https://m.media-amazon.com/images/M/MV5BODFmYTUwYzMtM2M2My00NGExLWIzMDctYmRjNTNhZDc4MGI2XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg"
             width={250}
@@ -76,8 +75,7 @@ const AnimeDescription = () => {
             </div>
           </div>
         </div>
-      ))
-    }
+      
     </>
     
   )

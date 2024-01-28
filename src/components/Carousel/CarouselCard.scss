@@ -1,0 +1,23 @@
+.carousel__container{
+  .carousel__card{
+    .anime__card{
+
+      .anime__poster{
+        height: 90vh;
+        display: flex!important;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
+
+
+.slick-next{
+  display: none!important;
+}
+.slick-prev{
+  display: none!important;
+}
