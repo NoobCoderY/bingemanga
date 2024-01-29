@@ -14,7 +14,7 @@ const CarouselCard = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 6000,
     cssEase: 'linear',
   }
   return (

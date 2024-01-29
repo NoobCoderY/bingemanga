@@ -1,0 +1,29 @@
+.slider__container{
+    background-color: var(--primaryColor);
+    color: var(--backgroundColor);
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .slider__box__title{
+        font: normal 700 2rem/2rem Roboto;
+    }
+
+    .slider__box__title_2{
+        font: normal 500 1.2rem/1rem Roboto;
+    }
+
+    .slider__card{
+        padding: 1rem 0rem;
+        .card__box{
+            width: 200px;
+            cursor: pointer;
+    
+            .title{
+                padding-top: 1rem;
+                font: normal 400 15px/18px Roboto;
+                text-wrap: balance;
+            }
+        }
+    }
+}
