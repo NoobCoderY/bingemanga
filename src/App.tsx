@@ -10,6 +10,7 @@ import Watch from './pages/Watch'
 import SignUp from './pages/Auth/SignUp'
 import Login from './pages/Auth/Login'
 import Manga from './pages/Manga'
+import Chapter from './pages/Chapter'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/animelist" element={<AnimeList />} />
             <Route path="/mangalist" element={<MangaList />} />
             <Route path="/manga/:id" element={<Manga />} />
+            <Route path="/manga/:id/:chapter" element={<Chapter />} />
             <Route path="/genre" element={<Genre />} />
             <Route path="/news" element={<News />} />
             <Route path="/watch/:id" element={<Watch />} />

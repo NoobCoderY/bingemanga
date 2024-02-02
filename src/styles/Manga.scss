@@ -1,0 +1,61 @@
+// AnimeComponent.scss
+
+.anime-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    .anime-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .anime-poster {
+        max-width: 200px;
+        margin-right: 20px;
+      }
+  
+      .anime-details {
+        flex: 1;
+      }
+  
+      .anime-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+  
+      .anime-description {
+        font-size: 1rem;
+        color: #666;
+      }
+    }
+  
+    .anime-chapters {
+      .chapters-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          font-size: 1rem;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  
+    @media (max-width: 600px) {
+      .anime-header {
+        flex-direction: column;
+  
+        .anime-poster {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  

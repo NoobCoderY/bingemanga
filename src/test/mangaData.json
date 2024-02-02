@@ -1,13 +1,104 @@
-[
+{
+  "animeTitle": "One Piece",
+  "animePoster": "https://m.media-amazon.com/images/M/MV5BM2YwYTkwNjItNGQzNy00MWE1LWE1M2ItOTMzOGI1OWQyYjA0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UY10401_.jpg",
+  "description": "In a seafaring world, a young pirate captain sets out with his crew to attain the title of Pirate King, and to discover the mythical treasure known as 'One Piece.'",
+  "chapters": [
     {
-        "animeTitle":"One Piece",
-        "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ],
-        
+      "chapterNo": 1,
+      "pages": [
+        {
+          "pageNo": 1,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/2.jpeg"
+        },
+        {
+          "pageNo": 2,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/4.jpeg"
+        },
+        {
+          "pageNo": 3,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/5.jpeg"
+        },
+        {
+          "pageNo": 4,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/6.jpeg"
+        },
+        {
+          "pageNo": 5,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/7.jpeg"
+        },
+        {
+          "pageNo": 6,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/8.jpeg"
+        },
+        {
+          "pageNo": 7,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/9.jpeg"
+        },
+        {
+          "pageNo": 8,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/10.jpeg"
+        },
+        {
+          "pageNo": 9,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/11.jpeg"
+        },
+        {
+          "pageNo": 10,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/12.jpeg"
+        },
+        {
+          "pageNo": 11,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/13.jpeg"
+        },
+        {
+          "pageNo": 12,
+          "image": "https://www.mangaread.org/wp-content/uploads/WP-manga/data/manga_5db9315acf069/2b22dbc91cfd238f131f69ce0dbfdd91/14.jpeg"
+        }
+      ]
+    },
+    {
+      "chapterNo": 2,
+      "pages": []
+    },
+    {
+      "chapterNo": 3,
+      "pages": []
+    },
+    {
+      "chapterNo": 4,
+      "pages": []
+    },
+    {
+      "chapterNo": 5,
+      "pages": []
+    },
+    {
+      "chapterNo": 6,
+      "pages": []
+    },
+    {
+      "chapterNo": 7,
+      "pages": []
+    },
+    {
+      "chapterNo": 8,
+      "pages": []
+    },
+    {
+      "chapterNo": 9,
+      "pages": []
+    },
+    {
+      "chapterNo": 10,
+      "pages": []
+    },
+    {
+      "chapterNo": 11,
+      "pages": []
+    },
+    {
+      "chapterNo": 12,
+      "pages": []
     }
-]
-
-"chapterName":"A New Dawn on Egghead Island"
+  ]
+}
