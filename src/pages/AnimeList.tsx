@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/Anime.scss'
-import AnimeList from '../components/Anime/AnimeList'
+import List from '../components/Anime/List'
 
 const Anime = () => {
   return (
     <div className="anime__page">
-      <AnimeList />
+      <List />
     </div>
   )
 }

@@ -12,8 +12,8 @@ const Navbar = () => {
 
        <div className="nav__navigation">
         <li onClick={()=>navigate('/')}>Home</li>
-        <li onClick={()=>navigate('/anime')}>Anime</li>
-        <li onClick={()=>navigate('/manga')}>Manga</li>
+        <li onClick={()=>navigate('/animelist')}>Anime</li>
+        <li onClick={()=>navigate('/mangalist')}>Manga</li>
         <li onClick={()=>navigate('/genre')}>Genres</li>
         <li onClick={()=>navigate('/news')}>News</li>
        </div>
