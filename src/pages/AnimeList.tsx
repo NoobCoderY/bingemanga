@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Anime.scss'
+import '../styles/AnimeList.scss'
 import List from '../components/Anime/List'
 
 const Anime = () => {

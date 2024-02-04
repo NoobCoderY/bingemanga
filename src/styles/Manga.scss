@@ -1,61 +1,81 @@
-// AnimeComponent.scss
+// mangaComponent.scss
 
-.anime-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  
-    .anime-header {
+.manga-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .manga-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .manga-poster {
+      max-width: 200px;
+      margin-right: 20px;
+    }
+
+    .manga-details {
+      flex: 1;
+    }
+
+    .manga-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .manga-description {
+      font-size: 1rem;
+      color: #666;
+    }
+  }
+
+  .manga-chapters {
+    .chapters-title {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    .chapters__container {
+      padding: 1rem;
+      border: 2px solid gold;
+      border-radius: 5px;
       display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-  
-      .anime-poster {
-        max-width: 200px;
-        margin-right: 20px;
-      }
-  
-      .anime-details {
-        flex: 1;
-      }
-  
-      .anime-title {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-      }
-  
-      .anime-description {
-        font-size: 1rem;
-        color: #666;
-      }
-    }
-  
-    .anime-chapters {
-      .chapters-title {
-        font-size: 1.25rem;
-        margin-bottom: 10px;
-      }
-  
-      ul {
-        list-style-type: none;
-        padding: 0;
-  
-        li {
-          font-size: 1rem;
-          margin-bottom: 5px;
-        }
-      }
-    }
-  
-    @media (max-width: 600px) {
-      .anime-header {
-        flex-direction: column;
-  
-        .anime-poster {
-          margin-right: 0;
-          margin-bottom: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      .chapter__card {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        overflow: hidden;
+        padding: 0.5rem 1rem;
+        border: 2px solid yellow;
+        border-radius: 5px;
+
+        .read__now{
+          display: flex;
+          border-radius: 5px;
+          color: #666;
+          padding: .1rem .5rem;
+          background-color: var(--primaryColor);
+          align-items: center;
+          gap: .3rem;
         }
       }
     }
   }
-  
+
+  @media (max-width: 600px) {
+    .manga-header {
+      flex-direction: column;
+
+      .manga-poster {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

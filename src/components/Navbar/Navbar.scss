@@ -22,6 +22,9 @@
             font: normal 400 20px/20px Roboto;
             cursor: pointer;
         }
+        @media screen and (width<600px) {
+            display: none;
+        }
     }
 
     .nav__search{
@@ -37,6 +40,9 @@
             height: 3vh;
             width: 15vw;
             font: normal 400 16px/16px Roboto;
+        }
+        @media screen and (width<600px) {
+            display: none;
         }
     }
 }

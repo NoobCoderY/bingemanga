@@ -1,19 +1,23 @@
 import React from 'react'
-import { useLocation, useParams } from 'react-router-dom'
+import '../styles/Chapter.scss'
+import { useLocation } from 'react-router-dom'
 
 const Chapter = () => {
-    const location = useLocation()
-    const data = location.state
-    console.log(data);
-    
+  const location = useLocation()
+  const data = location.state
+
   return (
-    <div>
-        {data.map((item:any, index:number)=>(
-            <div key={index}>
-                <img style={{width:'50%', height:'60%'}} src={item?.image} alt="" />
-                <p>{item.pageNo}</p>
-            </div>
-        ))}
+    <div className="chapter__container">
+      {data.map((item: any, index: number) => (
+        
+          <div key={index} className="chapter__img__container">
+            <img
+              src={item?.image}
+              alt=""
+            />
+          </div>
+        
+      ))}
     </div>
   )
 }

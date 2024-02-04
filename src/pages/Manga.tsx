@@ -2,24 +2,26 @@ import React from 'react'
 import '../styles/Manga.scss'
 import data from '../test/mangaData.json'
 import { useNavigate } from 'react-router-dom'
+import { CiRead } from "react-icons/ci";
 
 const Manga = () => {
   const navigate = useNavigate()
   return (
-    <div className="anime-container">
-      <div className="anime-header">
-        <img className="anime-poster" src={data?.animePoster} alt="." />
-        <div className="anime-details">
-          <h1 className="anime-title">{data?.animeTitle}</h1>
-          <p className="anime-description">{data?.description}</p>
+    <div className="manga-container">
+      <div className="manga-header">
+        <img className="manga-poster" src={data?.animePoster} alt="." />
+        <div className="manga-details">
+          <h1 className="manga-title">{data?.animeTitle}</h1>
+          <p className="manga-description">{data?.description}</p>
         </div>
       </div>
-      <div className="anime-chapters">
+      <div className="manga-chapters">
         <h2 className="chapters-title">Chapters</h2>
-        <ul>
+        <ul className='chapters__container'>
           {data?.chapters?.map((item:any, index) => (
-            <div key={index} onClick={()=>navigate(`/manga/${data?.animeTitle}/${item?.chapterNo}`, {state:item.pages})}>
-              {item?.chapterNo}
+            <div className='chapter__card' key={index} onClick={()=>navigate(`/manga/${data?.animeTitle}/${item?.chapterNo}`, {state:item.pages})}>
+              <p className='chapter__details'>{data?.animeTitle}{` Chapter `}{item?.chapterNo}: {item?.chapterName} </p>
+              <div className='read__now'> <CiRead/> Read</div>
             </div>
           ))}
         </ul>

@@ -4,7 +4,8 @@
   "description": "In a seafaring world, a young pirate captain sets out with his crew to attain the title of Pirate King, and to discover the mythical treasure known as 'One Piece.'",
   "chapters": [
     {
-      "chapterNo": 1,
+      "chapterNo": 1106,
+      "chapterName":"On Your Side",
       "pages": [
         {
           "pageNo": 1,
@@ -57,47 +58,58 @@
       ]
     },
     {
-      "chapterNo": 2,
+      "chapterNo": 1105,
+      "chapterName":"The Height of Folly",
       "pages": []
     },
     {
-      "chapterNo": 3,
+      "chapterNo": 1104,
+      "chapterName":"Thank You Daddy",
       "pages": []
     },
     {
-      "chapterNo": 4,
+      "chapterNo": 1103,
+      "chapterName":"I'm sorry Father",
       "pages": []
     },
     {
-      "chapterNo": 5,
+      "chapterNo": 1102,
+      "chapterName":"The Life of Kuma",
       "pages": []
     },
     {
-      "chapterNo": 6,
+      "chapterNo": 1101,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 7,
+      "chapterNo": 1100,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 8,
+      "chapterNo": 1099,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 9,
+      "chapterNo": 1098,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 10,
+      "chapterNo": 1097,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 11,
+      "chapterNo": 1096,
+      "chapterName":"On Your Side",
       "pages": []
     },
     {
-      "chapterNo": 12,
+      "chapterNo": 1095,
+      "chapterName":"On Your Side",
       "pages": []
     }
   ]

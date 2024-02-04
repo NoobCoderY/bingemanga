@@ -1,12 +1,13 @@
 import React from 'react'
 import List from '../components/Anime/List'
+import '../styles/MangaList.scss'
 
-const Manga = () => {
+const MangaList = () => {
   return (
-    <div>
+    <div className='mangalist__container'>
       <List />
     </div>
   )
 }
 
-export default Manga
+export default MangaList
